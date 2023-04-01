@@ -1,0 +1,38 @@
+
+Assignment 5: Component Library
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+> Build re-usable components that can be easily implemented
+Required components:
+    > Navbar
+        >> what is a navigation icon?
+            > Pretty sure it's just one of those icons from that open-src
+            icon website he showed me
+    > Button
+        >> Also needs to be able to take in a button 
+    > Floating Action Button
+        >> Need to look up how to do a box-shadow
+    > Image Carousel
+        >> This is going to be tricky
+    > Loading Spinners X 3
+        >> Not sure what animated text would be, just something
+        that says 'loading...' with the three dots appearing one
+        at a time and then disappearing?
+        >> How would a loading spinner be interactive? The only
+        thing I can think of is like a little thing that jumps
+        when you click it or changes color or something
+
+> Documentation for how the components work and how to implement them
+    (A simple website that does serves this purpose)
+For each one:
+    > The component itself
+    > Any HTML, CSS, or JS that has been used for the component
+        >> Use the HTML pre tag to display your code
+            >> Have to use escape characters to write code in <pre> in 
+            html, but if you write it in js surrounded by `` you don't
+            have to 
+    ** Any code should be able to be copy-pasted and easily used
+    by anybody
+
+notes:
+> Organize each component into its own html, css, and js files to make it
+easier to prepare the documentation at the end

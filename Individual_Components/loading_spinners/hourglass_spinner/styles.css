@@ -1,0 +1,30 @@
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#loader_container {
+    animation: hourglass;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.material-symbols-outlined {
+    font-size: 200px !important;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+@keyframes hourglass {
+    from {
+        transform: rotateX(0deg);
+    } to {
+        transform: rotateX(360deg);
+    }
+}
+

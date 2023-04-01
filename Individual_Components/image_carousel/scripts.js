@@ -1,0 +1,2 @@
+
+const carousel = document.getElementById

@@ -1,0 +1,66 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: darkslategray;
+}
+
+#container {
+    z-index: 0;
+    overflow: hidden;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    width: 500px;
+    height: 30px;
+    border-radius: 3px;
+    z-index: 2;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+#icon_container {
+    display: flex;
+    position: absolute;
+    background-color: gray;
+    justify-self: start;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    max-width: 10%;
+    border-radius: 2px;
+    z-index: 2;
+    cursor: pointer;
+    
+}
+
+#drawer {
+    background-color: gray;
+    display: block;
+    position: relative;
+    right: 210px;
+    z-index: 1;
+    width: 200px;
+    height: auto;
+}
+
+.drawers {
+    background-color: gray;
+    padding: 5px;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

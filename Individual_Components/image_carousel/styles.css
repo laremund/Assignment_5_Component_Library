@@ -1,0 +1,38 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.carousel_img {
+    display: flex;
+    flex-direction: row;
+    /* position: absolute; */
+    /* right: 0%; */
+    width: 100%;
+    height: 400px;
+    /* padding: 10%; */
+    animation-name: turnCarousel;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    /* ^ I don't know if these two go here for each individual img or on the
+    carousel class for the entire carousel */
+}
+
+
+@keyframes turnCarousel {
+    from {
+        transform: translateX(0px);
+    } to {
+        transform: translateX(-300px);
+    }
+}

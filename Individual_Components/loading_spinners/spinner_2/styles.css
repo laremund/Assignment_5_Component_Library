@@ -1,0 +1,57 @@
+
+#loader_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    width: 150px;
+    height: 150px;
+}
+
+.material-symbols-outlined {
+    animation: loaderspin;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-size: 150px !important;
+    color: black;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 100,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+#loader_container:hover {
+    background-color: rgb(187, 187, 187);
+    cursor: pointer;
+}
+
+#loader_container:active {
+    background-color: rgb(101, 101, 101);
+    animation: containerspin;
+    animation-duration: 2s;
+    border-radius: 50%;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loaderspin {
+    from {
+        transform: rotateZ(0deg);
+    } to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes containerspin {
+    from {
+        transform: rotateZ(360deg);
+    } to {
+        transform: rotateZ(0deg);
+    }
+}
+
+
+
